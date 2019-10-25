@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [restassuredtestsuite]">
+  <test thread-count="5" verbose="0" name="restassuredtests(failed)">
+    <classes>
+      <class name="getRequest.GetData">
+        <methods>
+          <include name="getEndPoint"/>
+          <include name="validateResponseBody"/>
+        </methods>
+      </class> <!-- getRequest.GetData -->
+      <class name="postRequest.PostRequestId">
+        <methods>
+          <include name="getEndPoint"/>
+          <include name="testPostResponseCode"/>
+        </methods>
+      </class> <!-- postRequest.PostRequestId -->
+      <class name="delete.deleteMissing">
+        <methods>
+          <include name="validateHeaders"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- delete.deleteMissing -->
+      <class name="putRequest.putProductPrice">
+        <methods>
+          <include name="testPutResponseCode"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- putRequest.putProductPrice -->
+      <class name="getRequest.GetDataNegative">
+        <methods>
+          <include name="getEndPointId"/>
+          <include name="validateHeaders"/>
+        </methods>
+      </class> <!-- getRequest.GetDataNegative -->
+      <class name="putRequest.putId">
+        <methods>
+          <include name="getEndPoint"/>
+          <include name="testPutResponseCode"/>
+        </methods>
+      </class> <!-- putRequest.putId -->
+      <class name="postRequest.postMissingNode">
+        <methods>
+          <include name="testPostResponseStatusLine"/>
+          <include name="getEndPoint"/>
+          <include name="testPostResponseCode"/>
+        </methods>
+      </class> <!-- postRequest.postMissingNode -->
+      <class name="getRequest.GetDataId">
+        <methods>
+          <include name="validateResponseBody"/>
+          <include name="getEndPointId"/>
+          <include name="validateDataType"/>
+        </methods>
+      </class> <!-- getRequest.GetDataId -->
+      <class name="putRequest.putProductCode">
+        <methods>
+          <include name="testPutResponseCode"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- putRequest.putProductCode -->
+    </classes>
+  </test> <!-- restassuredtests(failed) -->
+</suite> <!-- Failed suite [restassuredtestsuite] -->

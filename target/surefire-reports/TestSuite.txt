@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 84.486 s <<< FAILURE! - in TestSuite
+validateResponseBody(getRequest.GetData)  Time elapsed: 0.205 s  <<< FAILURE!
+java.lang.AssertionError: expected [product-code] but found [id]
+	at getRequest.GetData.validateResponseBody(GetData.java:91)
+
+validateResponseBody(getRequest.GetDataId)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [product-code] but found [id]
+	at getRequest.GetDataId.validateResponseBody(GetDataId.java:104)
+
+validateDataType(getRequest.GetDataId)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [float] but found [String]
+	at getRequest.GetDataId.validateDataType(GetDataId.java:143)
+
+validateHeaders(getRequest.GetDataNegative)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [application/json] but found [application/problem+json]
+	at getRequest.GetDataNegative.validateHeaders(GetDataNegative.java:102)
+
+testPostResponseCode(postRequest.postMissingNode)  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<404> but was:<400>
+	at postRequest.postMissingNode.testPostResponseCode(postMissingNode.java:56)
+
+testPostResponseStatusLine(postRequest.postMissingNode)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...4...> but was:<...0...>
+	at postRequest.postMissingNode.testPostResponseStatusLine(postMissingNode.java:73)
+
+testPostResponseCode(postRequest.PostRequestId)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<404> but was:<200>
+	at postRequest.PostRequestId.testPostResponseCode(PostRequestId.java:60)
+
+testPutResponseCode(putRequest.putId)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putId.testPutResponseCode(putId.java:72)
+
+testPutResponseCode(putRequest.putProductCode)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putProductCode.testPutResponseCode(putProductCode.java:72)
+
+testPutResponseCode(putRequest.putProductPrice)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putProductPrice.testPutResponseCode(putProductPrice.java:72)
+
+validateHeaders(delete.deleteMissing)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<application/problem+json> but was:<application/json>
+	at delete.deleteMissing.validateHeaders(deleteMissing.java:92)
+

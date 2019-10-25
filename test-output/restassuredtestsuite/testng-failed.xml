@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restassuredtestsuite]">
+  <test thread-count="5" name="restassuredtests(failed)">
+    <classes>
+      <class name="postRequest.PostRequestId">
+        <methods>
+          <include name="getEndPoint"/>
+          <include name="testPostResponseCode"/>
+        </methods>
+      </class> <!-- postRequest.PostRequestId -->
+      <class name="getRequest.GetData">
+        <methods>
+          <include name="getEndPoint"/>
+          <include name="validateHeaders"/>
+          <include name="validateResponseBody"/>
+        </methods>
+      </class> <!-- getRequest.GetData -->
+      <class name="postRequest.PostRequestCode">
+        <methods>
+          <include name="validateDB"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- postRequest.PostRequestCode -->
+      <class name="putRequest.putMissingName">
+        <methods>
+          <include name="validateDB"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- putRequest.putMissingName -->
+      <class name="getRequest.GetDataId">
+        <methods>
+          <include name="validateResponseBody"/>
+          <include name="getEndPointId"/>
+          <include name="validateDataType"/>
+        </methods>
+      </class> <!-- getRequest.GetDataId -->
+      <class name="getRequest.GetDataNegative">
+        <methods>
+          <include name="getEndPointId"/>
+          <include name="validateHeaders"/>
+        </methods>
+      </class> <!-- getRequest.GetDataNegative -->
+      <class name="delete.deleteMissing">
+        <methods>
+          <include name="validateHeaders"/>
+          <include name="getEndPoint"/>
+        </methods>
+      </class> <!-- delete.deleteMissing -->
+      <class name="postRequest.postMissingNode">
+        <methods>
+          <include name="testPostResponseStatusLine"/>
+          <include name="getEndPoint"/>
+          <include name="testPostResponseCode"/>
+        </methods>
+      </class> <!-- postRequest.postMissingNode -->
+    </classes>
+  </test> <!-- restassuredtests(failed) -->
+</suite> <!-- Failed suite [restassuredtestsuite] -->

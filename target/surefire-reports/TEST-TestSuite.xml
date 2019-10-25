@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="84.486" tests="45" errors="0" skipped="0" failures="11">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/test-classes:/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/classes:/Users/shivaniarora/.m2/repository/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/shivaniarora/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/shivaniarora/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/shivaniarora/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/json-path/4.1.1/json-path-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/rest-assured-common/4.1.1/rest-assured-common-4.1.1.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/xml-path/4.1.1/xml-path-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/shivaniarora/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/shivaniarora/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/shivaniarora/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/shivaniarora/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/shivaniarora/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/shivaniarora/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/shivaniarora/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/shivaniarora/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/shivaniarora/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/shivaniarora/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/shivaniarora/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/shivaniarora/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/surefire/surefirebooter3230265534523257760.jar /Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/surefire 2019-10-25T00-36-17_079-jvmRun1 surefire6163174099373939587tmp surefire_03940753145665468638tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/test-classes:/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/classes:/Users/shivaniarora/.m2/repository/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/shivaniarora/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/shivaniarora/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/shivaniarora/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/shivaniarora/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/json-path/4.1.1/json-path-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/rest-assured-common/4.1.1/rest-assured-common-4.1.1.jar:/Users/shivaniarora/.m2/repository/io/rest-assured/xml-path/4.1.1/xml-path-4.1.1.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/shivaniarora/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/shivaniarora/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/shivaniarora/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/shivaniarora/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/shivaniarora/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/shivaniarora/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/shivaniarora/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/shivaniarora/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/shivaniarora/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/shivaniarora/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/shivaniarora/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/shivaniarora/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/shivaniarora/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shivaniarora"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI/target/surefire/surefirebooter3230265534523257760.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="shivaniarora"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/shivaniarora/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2g/d8xmwf256p14v1vtslcgk8l00000gp/T/"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="/Users/shivaniarora/eclipse-workspace/RestAssuredSwaggerAPI"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/shivaniarora/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="/Users/shivaniarora/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testResponseCode" classname="getRequest.GetData" time="0.004"/>
+  <testcase name="testResponseLine" classname="getRequest.GetData" time="0"/>
+  <testcase name="validateResponseBody" classname="getRequest.GetData" time="0.205">
+    <failure message="expected [product-code] but found [id]" type="java.lang.AssertionError">java.lang.AssertionError: expected [product-code] but found [id]
+	at getRequest.GetData.validateResponseBody(GetData.java:91)
+</failure>
+    <system-out><![CDATA[Response Body[
+  {
+    "id": 2,
+    "name": "Personalised cufflinks",
+    "price": "45.00"
+  },
+  {
+    "id": 3,
+    "name": "Kids T-shirt",
+    "price": "19.95"
+  },
+  {
+    "id": 4,
+    "name": "Computer",
+    "price": "1500.50"
+  },
+  {
+    "id": 5,
+    "name": "Keyboard",
+    "price": "400.00"
+  },
+  {
+    "id": 6,
+    "name": "IPhone",
+    "price": "1000.00"
+  },
+  {
+    "id": 7,
+    "name": "Power Backup",
+    "price": "1500.50"
+  },
+  {
+    "id": 8,
+    "name": "Incorrect Update",
+    "price": "130.00"
+  },
+  {
+    "id": 9,
+    "name": "Headphones",
+    "price": "21.00"
+  }
+]
+
+]]></system-out>
+  </testcase>
+  <testcase name="validateHeaders" classname="getRequest.GetData" time="0.021"/>
+  <testcase name="testResponseCode" classname="getRequest.GetDataId" time="0.001"/>
+  <testcase name="testResponseLine" classname="getRequest.GetDataId" time="0"/>
+  <testcase name="testResponseDataId" classname="getRequest.GetDataId" time="0.519"/>
+  <testcase name="validateResponseBody" classname="getRequest.GetDataId" time="0.001">
+    <failure message="expected [product-code] but found [id]" type="java.lang.AssertionError">java.lang.AssertionError: expected [product-code] but found [id]
+	at getRequest.GetDataId.validateResponseBody(GetDataId.java:104)
+</failure>
+    <system-out><![CDATA[Response Body{
+  "id": 3,
+  "name": "Kids T-shirt",
+  "price": "19.95"
+}
+
+]]></system-out>
+  </testcase>
+  <testcase name="validateHeaders" classname="getRequest.GetDataId" time="0.001"/>
+  <testcase name="validateDataType" classname="getRequest.GetDataId" time="0.013">
+    <failure message="expected [float] but found [String]" type="java.lang.AssertionError">java.lang.AssertionError: expected [float] but found [String]
+	at getRequest.GetDataId.validateDataType(GetDataId.java:143)
+</failure>
+    <system-out><![CDATA[Exception is java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseCode" classname="getRequest.GetDataNegative" time="0"/>
+  <testcase name="testResponseLine" classname="getRequest.GetDataNegative" time="0.001"/>
+  <testcase name="validateResponseBody" classname="getRequest.GetDataNegative" time="0.023"/>
+  <testcase name="validateHeaders" classname="getRequest.GetDataNegative" time="0.001">
+    <failure message="expected [application/json] but found [application/problem+json]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [application/problem+json]
+	at getRequest.GetDataNegative.validateHeaders(GetDataNegative.java:102)
+</failure>
+    <system-out><![CDATA[waitress
+application/problem+json
+205
+]]></system-out>
+  </testcase>
+  <testcase name="testPostResponseCode" classname="postRequest.PostRequest" time="0.003"/>
+  <testcase name="testPostResponseStatusLine" classname="postRequest.PostRequest" time="0"/>
+  <testcase name="validateDB" classname="postRequest.PostRequest" time="0.048"/>
+  <testcase name="testPostResponseCode" classname="postRequest.postMissingNode" time="0.003">
+    <failure message="expected:&lt;404&gt; but was:&lt;400&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<404> but was:<400>
+	at postRequest.postMissingNode.testPostResponseCode(postMissingNode.java:56)
+]]></failure>
+  </testcase>
+  <testcase name="testPostResponseStatusLine" classname="postRequest.postMissingNode" time="0.001">
+    <failure message="expected:&lt;...4...&gt; but was:&lt;...0...&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<...4...> but was:<...0...>
+	at postRequest.postMissingNode.testPostResponseStatusLine(postMissingNode.java:73)
+]]></failure>
+    <system-out><![CDATA[Status code for get request isHTTP/1.1 400 BAD REQUEST
+]]></system-out>
+  </testcase>
+  <testcase name="testPostResponseCode" classname="postRequest.PostRequestCode" time="0"/>
+  <testcase name="validateDB" classname="postRequest.PostRequestCode" time="0.024"/>
+  <testcase name="testPostResponseCode" classname="postRequest.PostRequestId" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<404> but was:<200>
+	at postRequest.PostRequestId.testPostResponseCode(PostRequestId.java:60)
+]]></failure>
+  </testcase>
+  <testcase name="testPutResponseCode" classname="putRequest.putId" time="0.003">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putId.testPutResponseCode(putId.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="testPutResponseCode" classname="putRequest.putProductCode" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putProductCode.testPutResponseCode(putProductCode.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="testPutResponseCode" classname="putRequest.putProductPrice" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
+	at putRequest.putProductPrice.testPutResponseCode(putProductPrice.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="testPutResponseCode" classname="putRequest.putMissingName" time="0"/>
+  <testcase name="testPutResponseStatusLine" classname="putRequest.putMissingName" time="0"/>
+  <testcase name="validateHeaders" classname="putRequest.putMissingName" time="0.001"/>
+  <testcase name="validateDB" classname="putRequest.putMissingName" time="0.037"/>
+  <testcase name="testPutResponseCode" classname="putRequest.putMissingPrice" time="0.001"/>
+  <testcase name="testPutResponseStatusLine" classname="putRequest.putMissingPrice" time="0"/>
+  <testcase name="validateHeaders" classname="putRequest.putMissingPrice" time="0"/>
+  <testcase name="validateDB" classname="putRequest.putMissingPrice" time="0.047"/>
+  <testcase name="testPutResponseCode" classname="putRequest.putRequest" time="0.001"/>
+  <testcase name="testPutResponseStatusLine" classname="putRequest.putRequest" time="0"/>
+  <testcase name="validateHeaders" classname="putRequest.putRequest" time="0"/>
+  <testcase name="validateDB" classname="putRequest.putRequest" time="0.032"/>
+  <testcase name="testDeleteResponseCode" classname="delete.delete" time="0.001"/>
+  <testcase name="testDeleteResponseStatusLine" classname="delete.delete" time="0"/>
+  <testcase name="validateHeaders" classname="delete.delete" time="0.001"/>
+  <testcase name="validateDB" classname="delete.delete" time="0.015"/>
+  <testcase name="testDeleteResponseCode" classname="delete.deleteMissing" time="0.001"/>
+  <testcase name="testDeleteResponseStatusLine" classname="delete.deleteMissing" time="0.002"/>
+  <testcase name="validateHeaders" classname="delete.deleteMissing" time="0.002">
+    <failure message="expected:&lt;application/problem+json&gt; but was:&lt;application/json&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<application/problem+json> but was:<application/json>
+	at delete.deleteMissing.validateHeaders(deleteMissing.java:92)
+]]></failure>
+    <system-out><![CDATA[waitress
+application/problem+json
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteResponseBody" classname="delete.deleteMissing" time="0.028"/>
+</testsuite>
